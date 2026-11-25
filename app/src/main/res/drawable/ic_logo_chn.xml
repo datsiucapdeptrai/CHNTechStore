@@ -1,0 +1,63 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="128dp"
+    android:height="128dp"
+    android:viewportWidth="128"
+    android:viewportHeight="128">
+
+    <!-- Nền hình tròn gradient màu tím mượt mượt -->
+    <path
+        android:pathData="M64,4 C30.86,4 4,30.86 4,64 C4,97.14 30.86,124 64,124 C97.14,124 124,97.14 124,64 C124,30.86 97.14,4 64,4 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="124"
+                android:endY="124"
+                android:startX="4"
+                android:startY="4"
+                android:type="linear">
+                <item android:color="#7F67BE" android:offset="0.0" />
+                <item android:color="#523B8B" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Vòng viền công nghệ tinh tế phía ngoài -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M64,12 A52,52 0 1,1 63.99,12"
+        android:strokeColor="#FFFFFF"
+        android:strokeAlpha="0.25"
+        android:strokeWidth="2.5" />
+
+    <!-- Điểm chấm tín hiệu công nghệ xung quanh -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.8"
+        android:pathData="M64,16 A4,4 0 1,0 64,24 A4,4 0 1,0 64,16 Z M108,64 A4,4 0 1,0 108,72 A4,4 0 1,0 108,64 Z M64,104 A4,4 0 1,0 64,112 A4,4 0 1,0 64,104 Z M20,64 A4,4 0 1,0 20,72 A4,4 0 1,0 20,64 Z" />
+
+    <!-- Biểu tượng CHN cách điệu kiểu Công nghệ Chip (CPU / Circuit Core) -->
+    <!-- Chữ C -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M48,46 C40.27,46 34,52.27 34,60 L34,68 C34,75.73 40.27,82 48,82 L54,82 C56.21,82 58,80.21 58,78 L58,74 C58,71.79 56.21,70 54,70 L48,70 C46.9,70 46,69.1 46,68 L46,60 C46,58.9 46.9,58 48,58 L54,58 C56.21,58 58,56.21 58,54 L58,50 C58,47.79 56.21,46 54,46 Z" />
+
+    <!-- Chữ H -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M62,46 C60.9,46 60,46.9 60,48 L60,80 C60,81.1 60.9,82 62,82 L66,82 C67.1,82 68,81.1 68,80 L68,68 L74,68 L74,80 C74,81.1 74.9,82 76,82 L80,82 C81.1,82 82,81.1 82,80 L82,48 C82,46.9 81.1,46 80,46 L76,46 C74.9,46 74,46.9 74,48 L74,58 L68,58 L68,48 C68,46.9 67.1,46 66,46 Z" />
+
+    <!-- Chữ N -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M86,46 C84.9,46 84,46.9 84,48 L84,80 C84,81.1 84.9,82 86,82 L90,82 C90.7,82 91.3,81.6 91.6,81 L99,69 L99,80 C99,81.1 99.9,82 101,82 L104,82 C105.1,82 106,81.1 106,80 L106,48 C106,46.9 105.1,46 104,46 L100,46 C99.3,46 98.7,46.4 98.4,47 L91,59 L91,48 C91,46.9 90.1,46 89,46 Z" />
+
+    <!-- Dải mạch vi mạch mỏng góc dưới -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M38,92 L90,92"
+        android:strokeColor="#FFFFFF"
+        android:strokeAlpha="0.6"
+        android:strokeWidth="2"
+        android:strokeLineCap="round" />
+
+</vector>

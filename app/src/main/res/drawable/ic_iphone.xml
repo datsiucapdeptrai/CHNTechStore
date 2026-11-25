@@ -1,0 +1,44 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Outer background circle -->
+    <path
+        android:pathData="M60,0A60,60 0 1,0 120,60A60,60 0 0,0 60,0Z"
+        android:fillColor="#F0F4F8"/>
+    <!-- Phone Body (Natural Titanium) -->
+    <path
+        android:pathData="M38,15 L82,15 A10,10 0 0,1 92,25 L92,95 A10,10 0 0,1 82,105 L38,105 A10,10 0 0,1 28,95 L28,25 A10,10 0 0,1 38,15 Z"
+        android:fillColor="#4A4E54"/>
+    <!-- Screen Bezels -->
+    <path
+        android:pathData="M40,17 L80,17 A8,8 0 0,1 88,25 L88,95 A8,8 0 0,1 80,103 L40,103 A8,8 0 0,1 32,95 L32,25 A8,8 0 0,1 40,17 Z"
+        android:fillColor="#1C1C1E"/>
+    <!-- Screen Glow / Wallpaper -->
+    <path
+        android:pathData="M33,25 L87,25 A5,5 0 0,1 87,95 L33,95 A5,5 0 0,1 33,25 Z"
+        android:fillColor="#2D3238"/>
+    <path
+        android:pathData="M33,25 L87,25 L87,60 L33,45 Z"
+        android:fillColor="#3A404A"/>
+    <!-- Dynamic Island Notch -->
+    <path
+        android:pathData="M51,20 L69,20 A3,3 0 0,1 72,23 L72,23 A3,3 0 0,1 69,26 L51,26 A3,3 0 0,1 48,23 L48,23 A3,3 0 0,1 51,20 Z"
+        android:fillColor="#000000"/>
+    <!-- Triple Camera Bump (Back Lens Teaser / Icon) -->
+    <path
+        android:pathData="M34,22 L50,22 A4,4 0 0,1 54,26 L54,42 A4,4 0 0,1 50,46 L34,46 A4,4 0 0,1 30,42 L30,26 A4,4 0 0,1 34,22 Z"
+        android:fillColor="#3A3E45"
+        android:fillAlpha="0.8"/>
+    <!-- Camera Lenses -->
+    <path
+        android:pathData="M36,28A4,4 0 1,0 44,28A4,4 0 1,0 36,28Z"
+        android:fillColor="#111111"/>
+    <path
+        android:pathData="M36,40A4,4 0 1,0 44,40A4,4 0 1,0 36,40Z"
+        android:fillColor="#111111"/>
+    <path
+        android:pathData="M44,34A4,4 0 1,0 52,34A4,4 0 1,0 44,34Z"
+        android:fillColor="#111111"/>
+</vector>

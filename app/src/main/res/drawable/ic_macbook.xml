@@ -1,0 +1,31 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Background Circle -->
+    <path
+        android:pathData="M60,0A60,60 0 1,0 120,60A60,60 0 0,0 60,0Z"
+        android:fillColor="#F3F4F6"/>
+    <!-- Laptop Screen Lid (Space Black) -->
+    <path
+        android:pathData="M25,25 L95,25 A6,6 0 0,1 101,31 L101,75 L19,75 L19,31 A6,6 0 0,1 25,25 Z"
+        android:fillColor="#1F2937"/>
+    <!-- Display Screen -->
+    <path
+        android:pathData="M22,28 L98,28 L98,72 L22,72 Z"
+        android:fillColor="#111827"/>
+    <!-- Screen Wallpaper accent -->
+    <path
+        android:pathData="M22,50 L98,35 L98,72 L22,72 Z"
+        android:fillColor="#6366F1"
+        android:fillAlpha="0.7"/>
+    <!-- Base Aluminum Body -->
+    <path
+        android:pathData="M12,75 L108,75 A3,3 0 0,1 111,78 L111,82 A6,6 0 0,1 105,88 L15,88 A6,6 0 0,1 9,82 L9,78 A3,3 0 0,1 12,75 Z"
+        android:fillColor="#9CA3AF"/>
+    <!-- Trackpad notch -->
+    <path
+        android:pathData="M52,75 L68,75 L67,78 L53,78 Z"
+        android:fillColor="#6B7280"/>
+</vector>

@@ -1,0 +1,35 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Background Circle -->
+    <path
+        android:pathData="M60,0A60,60 0 1,0 120,60A60,60 0 0,0 60,0Z"
+        android:fillColor="#EBF3FA"/>
+    <!-- Phone Body (Titanium Yellow/Gray S24 Ultra) -->
+    <path
+        android:pathData="M32,14 L88,14 A4,4 0 0,1 92,18 L92,102 A4,4 0 0,1 88,106 L32,106 A4,4 0 0,1 28,102 L28,18 A4,4 0 0,1 32,14 Z"
+        android:fillColor="#2C3E50"/>
+    <!-- Screen Bezels -->
+    <path
+        android:pathData="M33,16 L87,16 A2,2 0 0,1 89,18 L89,102 A2,2 0 0,1 87,104 L33,104 A2,2 0 0,1 31,102 L31,18 A2,2 0 0,1 33,16 Z"
+        android:fillColor="#0F172A"/>
+    <!-- Display Screen -->
+    <path
+        android:pathData="M32,18 L88,18 L88,102 L32,102 Z"
+        android:fillColor="#1E293B"/>
+    <!-- Abstract S-24 Wallpaper Gradient Accent -->
+    <path
+        android:pathData="M32,45 L88,30 L88,80 L32,65 Z"
+        android:fillColor="#38BDF8"
+        android:fillAlpha="0.6"/>
+    <!-- Punch Hole Front Camera -->
+    <path
+        android:pathData="M60,20A2.5,2.5 0 1,0 60,25A2.5,2.5 0 1,0 60,20Z"
+        android:fillColor="#000000"/>
+    <!-- S-Pen Teaser (Bottom right) -->
+    <path
+        android:pathData="M83,92 L86,92 L86,105 L83,105 Z"
+        android:fillColor="#F59E0B"/>
+</vector>

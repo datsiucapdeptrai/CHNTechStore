@@ -1,0 +1,27 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Background Circle -->
+    <path
+        android:pathData="M60,0A60,60 0 1,0 120,60A60,60 0 0,0 60,0Z"
+        android:fillColor="#EEF2FF"/>
+    <!-- Tablet Body -->
+    <path
+        android:pathData="M24,20 L96,20 A8,8 0 0,1 104,28 L104,92 A8,8 0 0,1 96,100 L24,100 A8,8 0 0,1 16,92 L16,28 A8,8 0 0,1 24,20 Z"
+        android:fillColor="#374151"/>
+    <!-- Screen -->
+    <path
+        android:pathData="M20,24 L100,24 L100,96 L20,96 Z"
+        android:fillColor="#1F2937"/>
+    <!-- Screen Artwork -->
+    <path
+        android:pathData="M20,60 L100,40 L100,96 L20,96 Z"
+        android:fillColor="#8B5CF6"
+        android:fillAlpha="0.6"/>
+    <!-- Pencil -->
+    <path
+        android:pathData="M102,30 L104,30 L104,80 L102,80 Z"
+        android:fillColor="#E5E7EB"/>
+</vector>

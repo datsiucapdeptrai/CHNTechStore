@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Vibrant E-Commerce Palette -->
+    <color name="primary_color">#FF385C</color>
+    <color name="primary_dark">#E02247</color>
+    <color name="primary_light">#FFF0F3</color>
+
+    <color name="accent_color">#FF6B6B</color>
+    <color name="brand_orange">#FF6B00</color>
+    <color name="brand_blue">#0066FF</color>
+    <color name="brand_green">#00B894</color>
+    <color name="star_yellow">#FFB800</color>
+
+    <color name="bg_color">#F5F6FA</color>
+    <color name="bg_card">#FFFFFF</color>
+
+    <color name="text_color">#1E293B</color>
+    <color name="text_primary">#1E293B</color>
+    <color name="text_secondary">#64748B</color>
+    <color name="text_muted">#94A3B8</color>
+
+    <color name="price_red">#FF2B4A</color>
+    <color name="price_old">#94A3B8</color>
+
+    <color name="flash_sale_bg">#FFF0F2</color>
+    <color name="flash_sale_border">#FFCCD5</color>
+
+    <color name="voucher_bg">#FFF3ED</color>
+    <color name="voucher_text">#FF5722</color>
+
+    <color name="chip_selected_bg">#FF385C</color>
+    <color name="chip_unselected_bg">#F1F5F9</color>
+
+    <color name="divider_line">#E2E8F0</color>
+    <color name="spec_row_alt">#F8FAFC</color>
+</resources>

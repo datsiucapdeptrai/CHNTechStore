@@ -1,0 +1,31 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Background Circle -->
+    <path
+        android:pathData="M60,0A60,60 0 1,0 120,60A60,60 0 0,0 60,0Z"
+        android:fillColor="#FAF5FF"/>
+    <!-- Charging Case Body -->
+    <path
+        android:pathData="M35,45 L85,45 A18,18 0 0,1 103,63 L103,75 A18,18 0 0,1 85,93 L35,93 A18,18 0 0,1 17,75 L17,63 A18,18 0 0,1 35,45 Z"
+        android:fillColor="#E5E7EB"/>
+    <!-- Case Lid Seam Line -->
+    <path
+        android:pathData="M17,60 L103,60"
+        android:strokeWidth="1.5"
+        android:strokeColor="#D1D5DB"/>
+    <!-- Case LED Indicator -->
+    <path
+        android:pathData="M60,72A2,2 0 1,0 60,76A2,2 0 1,0 60,72Z"
+        android:fillColor="#10B981"/>
+    <!-- Earbud Stem 1 Teaser -->
+    <path
+        android:pathData="M40,25 L48,25 A5,5 0 0,1 53,30 L53,48 L40,48 Z"
+        android:fillColor="#FFFFFF"/>
+    <!-- Earbud Stem 2 Teaser -->
+    <path
+        android:pathData="M67,25 L75,25 A5,5 0 0,1 80,30 L80,48 L67,48 Z"
+        android:fillColor="#FFFFFF"/>
+</vector>
