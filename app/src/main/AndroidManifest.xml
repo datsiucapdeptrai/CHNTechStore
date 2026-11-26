@@ -2,9 +2,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <!-- Thêm quyền truy cập Internet và trạng thái mạng -->
+    <!-- Quyền truy cập Mạng & Dịch vụ Foreground theo Slide and4.pdf -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
 
     <application
         android:allowBackup="true"
@@ -41,6 +44,13 @@
         <activity android:name=".EditProfileActivity" />
         <activity android:name=".CartActivity" />
         <activity android:name=".CheckoutActivity" />
+
+        <!-- Khai báo Service theo Slide and4.pdf -->
+        <service
+            android:name=".OrderTrackingService"
+            android:enabled="true"
+            android:exported="false"
+            android:foregroundServiceType="dataSync" />
 
     </application>
 

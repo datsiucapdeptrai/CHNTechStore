@@ -1,5 +1,6 @@
 package com.example.calculatorapp;
 
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.widget.Button;
@@ -9,6 +10,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
 public class CheckoutActivity extends AppCompatActivity {
 
@@ -72,12 +74,15 @@ public class CheckoutActivity extends AppCompatActivity {
                 return;
             }
 
+            // Bắt đầu Android Foreground Service để theo dõi đơn hàng ngầm (theo Slide and4.pdf)
+            Intent serviceIntent = new Intent(this, OrderTrackingService.class);
+            serviceIntent.putExtra("ORDER_NAME", productName != null ? productName : "Đơn hàng CHN Tech");
+            ContextCompat.startForegroundService(this, serviceIntent);
+
             new AlertDialog.Builder(this)
                     .setTitle("Đặt Hàng Thành Công")
-                    .setMessage("Cảm ơn " + name + "!\nĐơn hàng của bạn đang được xử lý.\n\n📍 Địa chỉ giao hàng: " + address + "\n📞 SĐT: " + phone + "\n💰 Tổng thanh toán: " + productPrice)
-                    .setPositiveButton("Hoàn Tất", (dialog, which) -> {
-                        finish();
-                    })
+                    .setMessage("Cảm ơn " + name + "!\nĐơn hàng của bạn đang được xử lý ngầm (Android Foreground Service) và có thông báo hiển thị trên hệ thống!\n\n📍 Địa chỉ giao hàng: " + address + "\n📞 SĐT: " + phone + "\n💰 Tổng thanh toán: " + productPrice)
+                    .setPositiveButton("Hoàn Tất", (dialog, which) -> finish())
                     .setCancelable(false)
                     .show();
         });
